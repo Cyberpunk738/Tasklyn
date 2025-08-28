@@ -1698,6 +1698,27 @@ section {
   }
 }
 
+@media (max-width: 767px) {
+  .logo-img {
+    height: 5vh;
+  }
+  .stat-number {
+    font-size: 2.5rem;
+  }
+  .footer-logo{
+    height: 4vh;
+  }
+  .social-links{
+    justify-content: center;
+  }
+  img.footer-logo{
+    justify-self: center;
+  }
+  .footer-links{
+    display: none;
+  }
+}
+
 /* High DPI Displays */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .hero-grid {
